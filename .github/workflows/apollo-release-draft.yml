@@ -1,0 +1,18 @@
+name: Apollo Release Drafter
+
+on:
+  push:
+    branches: [ apollo-release ]
+  pull_request:
+    branches: [ apollo-release ]
+  workflow_dispatch:
+
+jobs:
+  apollo_release_draft:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: release-drafter/release-drafter@master
+        with:
+          config-name: apollo-release-drafter.yml
+        env:
+          GITHUB_TOKEN: ${{ secrets.GA_GITHUB_TOKEN }}

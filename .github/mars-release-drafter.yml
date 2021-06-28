@@ -1,6 +1,6 @@
 name-template: 'Mars v$NEXT_MINOR_VERSION'
 tag-template: 'mars-v$NEXT_MINOR_VERSION'
-version-template: 'mars-v$NEXT.$MINOR.$PATCH'
+version-template: 'mars-v$MAJOR.$MINOR.$PATCH'
 categories:
     - title: '🚀 New Features'
       labels:
