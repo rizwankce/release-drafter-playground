@@ -1,6 +1,7 @@
 name-template: 'Mars v$NEXT_MINOR_VERSION'
 tag-template: 'mars-v$NEXT_MINOR_VERSION'
-version-template: 'mars-v$MAJOR.$MINOR.$PATCH'
+filter-by-commitish: true
+commitish: mars-release
 categories:
     - title: '🚀 New Features'
       labels:
