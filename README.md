@@ -12,3 +12,4 @@ Playground for testing out release drafter GitHub Action
 ## Apollo Release branch testing
 
 - Adding edit 11
+- Adding edit 12 for fix
