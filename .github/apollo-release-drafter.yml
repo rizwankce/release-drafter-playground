@@ -1,5 +1,5 @@
-name-template: 'Apollo v$NEXT_MINOR_VERSION'
-tag-template: 'apollo-v$NEXT_MINOR_VERSION'
+name-template: 'Apollo v$RESOLVED_VERSION'
+tag-template: 'apollo-v$RESOLVED_VERSION'
 version-template: 'apollo-v$MAJOR.$MINOR.$PATCH'
 categories:
     - title: '🚀 New Features'
